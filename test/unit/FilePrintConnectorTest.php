@@ -1,5 +1,5 @@
 <?php
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
 
 class FilePrintConnectorTest extends PHPUnit\Framework\TestCase
 {

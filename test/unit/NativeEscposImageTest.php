@@ -1,6 +1,6 @@
 <?php
-use Mike42\Escpos\NativeEscposImage;
-use Mike42\Escpos\EscposImage;
+use Baledev\Escposp2\NativeEscposImage;
+use Baledev\Escposp2\EscposImage;
 
 class NativeEscposImageTest extends PHPUnit\Framework\TestCase
 {

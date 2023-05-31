@@ -1,5 +1,5 @@
 <?php
-use Mike42\Escpos\PrintConnectors\UriPrintConnector;
+use Baledev\Escposp2\PrintConnectors\UriPrintConnector;
 use PHPUnit\Framework\Error\Notice;
 
 class UriPrintConnectorTest extends PHPUnit\Framework\TestCase
@@ -12,7 +12,7 @@ class UriPrintConnectorTest extends PHPUnit\Framework\TestCase
         $connector -> write("AAA");
         $connector -> finalize();
         $this -> assertEquals("AAA", file_get_contents($filename));
-        $this -> assertEquals('Mike42\Escpos\PrintConnectors\FilePrintConnector', get_class($connector));
+        $this -> assertEquals('Baledev\Escposp2\PrintConnectors\FilePrintConnector', get_class($connector));
         unlink($filename);
     }
 
@@ -21,7 +21,7 @@ class UriPrintConnectorTest extends PHPUnit\Framework\TestCase
         $this->expectNotice();
         $this->expectNoticeMessage("not finalized");
         $connector = UriPrintConnector::get("smb://windows/printer");
-        $this -> assertEquals('Mike42\Escpos\PrintConnectors\WindowsPrintConnector', get_class($connector));
+        $this -> assertEquals('Baledev\Escposp2\PrintConnectors\WindowsPrintConnector', get_class($connector));
         // We expect that this will throw an exception, we can't
         // realistically print to a real printer in this test though... :)
         $connector -> __destruct();

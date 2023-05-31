@@ -1,8 +1,8 @@
 <?php
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\DummyPrintConnector;
-use Mike42\Escpos\EscposImage;
-use Mike42\Escpos\CapabilityProfile;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\PrintConnectors\DummyPrintConnector;
+use Baledev\Escposp2\EscposImage;
+use Baledev\Escposp2\CapabilityProfile;
 
 class EscposTest extends PHPUnit\Framework\TestCase
 {

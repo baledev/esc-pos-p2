@@ -1,6 +1,6 @@
 <?php
-use Mike42\Escpos\ImagickEscposImage;
-use Mike42\Escpos\EscposImage;
+use Baledev\Escposp2\ImagickEscposImage;
+use Baledev\Escposp2\EscposImage;
 
 class ImagickEscposImageTest extends PHPUnit\Framework\TestCase
 {

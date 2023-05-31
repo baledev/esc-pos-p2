@@ -9,8 +9,8 @@
  * - http://www.cl.cam.ac.uk/~mgk25/ucs/examples/quickbrown.txt
  * - http://clagnut.com/blog/2380/ (mirrored from the English Wikipedia)
  */
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\DummyPrintConnector;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\PrintConnectors\DummyPrintConnector;
 
 class EscposPrintBufferTest extends PHPUnit\Framework\TestCase
 {

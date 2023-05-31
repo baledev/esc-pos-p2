@@ -1,9 +1,9 @@
 <?php
 
-namespace Mike42\Escpos\Experimental\Unifont;
+namespace Baledev\Escposp2\Experimental\Unifont;
 
-use Mike42\Escpos\PrintConnectors\DummyPrintConnector;
-use Mike42\Escpos\Printer;
+use Baledev\Escposp2\PrintConnectors\DummyPrintConnector;
+use Baledev\Escposp2\Printer;
 use PHPUnit\Framework\TestCase;
 
 class UnifontPrintBufferTest extends TestCase

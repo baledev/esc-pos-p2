@@ -1,8 +1,8 @@
 <?php
 
-use Mike42\Escpos\PrintConnectors\DummyPrintConnector;
-use Mike42\Escpos\PrintConnectors\MultiplePrintConnector;
-use Mike42\Escpos\Printer;
+use Baledev\Escposp2\PrintConnectors\DummyPrintConnector;
+use Baledev\Escposp2\PrintConnectors\MultiplePrintConnector;
+use Baledev\Escposp2\Printer;
 
 class MultiplePrintConnectorTest extends PHPUnit\Framework\TestCase
 {

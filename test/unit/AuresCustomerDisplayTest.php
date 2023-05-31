@@ -1,8 +1,8 @@
 <?php
 
-use Mike42\Escpos\Devices\AuresCustomerDisplay;
-use Mike42\Escpos\PrintConnectors\DummyPrintConnector;
-use Mike42\Escpos\CapabilityProfile;
+use Baledev\Escposp2\Devices\AuresCustomerDisplay;
+use Baledev\Escposp2\PrintConnectors\DummyPrintConnector;
+use Baledev\Escposp2\CapabilityProfile;
 
 class AuresCustomerDisplayTest extends PHPUnit\Framework\TestCase
 {

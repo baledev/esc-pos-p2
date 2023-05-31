@@ -1,6 +1,6 @@
 <?php
-use Mike42\Escpos\GdEscposImage;
-use Mike42\Escpos\EscposImage;
+use Baledev\Escposp2\GdEscposImage;
+use Baledev\Escposp2\EscposImage;
 
 class GdEscposImageTest extends PHPUnit\Framework\TestCase
 {

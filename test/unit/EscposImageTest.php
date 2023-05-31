@@ -1,5 +1,5 @@
 <?php
-use Mike42\Escpos\EscposImage;
+use Baledev\Escposp2\EscposImage;
 
 class EscposImageTest extends PHPUnit\Framework\TestCase
 {

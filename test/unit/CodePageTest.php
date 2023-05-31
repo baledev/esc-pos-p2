@@ -1,5 +1,5 @@
 <?php
-use Mike42\Escpos\CodePage;
+use Baledev\Escposp2\CodePage;
 
 class CodePageTest extends PHPUnit\Framework\TestCase
 {

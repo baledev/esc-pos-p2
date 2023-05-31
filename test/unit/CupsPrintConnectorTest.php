@@ -1,5 +1,5 @@
 <?php
-use Mike42\Escpos\PrintConnectors\CupsPrintConnector;
+use Baledev\Escposp2\PrintConnectors\CupsPrintConnector;
 
 class CupsPrintConnectorTest extends PHPUnit\Framework\TestCase
 {
@@ -24,7 +24,7 @@ class CupsPrintConnectorTest extends PHPUnit\Framework\TestCase
     }
     private function getMockConnector($path, array $printers)
     {
-        $stub = $this->getMockBuilder('Mike42\Escpos\PrintConnectors\CupsPrintConnector')->setMethods(array (
+        $stub = $this->getMockBuilder('Baledev\Escposp2\PrintConnectors\CupsPrintConnector')->setMethods(array (
                 'getCmdOutput',
                 'getLocalPrinters'
         ))->disableOriginalConstructor()->getMock();

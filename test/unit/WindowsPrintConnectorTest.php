@@ -1,5 +1,5 @@
 <?php
-use Mike42\Escpos\PrintConnectors\WindowsPrintConnector;
+use Baledev\Escposp2\PrintConnectors\WindowsPrintConnector;
 
 class WindowsPrintConnectorTest extends PHPUnit\Framework\TestCase
 {
@@ -225,7 +225,7 @@ class WindowsPrintConnectorTest extends PHPUnit\Framework\TestCase
 
     private function getMockConnector($path, $platform)
     {
-        $stub = $this -> getMockBuilder('Mike42\Escpos\PrintConnectors\WindowsPrintConnector')
+        $stub = $this -> getMockBuilder('Baledev\Escposp2\PrintConnectors\WindowsPrintConnector')
                 -> setMethods(array('runCopy', 'runCommand', 'getCurrentPlatform', 'runWrite'))
                 -> disableOriginalConstructor()
                 -> getMock();

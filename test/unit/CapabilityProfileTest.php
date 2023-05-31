@@ -1,5 +1,5 @@
 <?php
-use Mike42\Escpos\CapabilityProfile;
+use Baledev\Escposp2\CapabilityProfile;
 
 class CapabilityProfileTest extends PHPUnit\Framework\TestCase
 {
