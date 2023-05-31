@@ -3,7 +3,11 @@
 This file contains a list of people who have made contributions of 
 code which appear in the public repository of escpos-php.
 
-Main repository: [mike42/escpos-php](https://github.com/mike42/escpos-php) ([online contributor list](https://github.com/mike42/escpos-php/graphs/contributors))
+Main repository: [baledev/esc-pos-p2](https://github.com/baledev/esc-pos-p2) ([online contributor list](https://github.com/baledev/esc-pos-p2/graphs/contributors))
+
+- [Hermansyah](https://github.com/baledev)
+
+Via [mike42/escpos-php](https://github.com/mike42/escpos-php):
 
 - [Michael Billington](https://github.com/mike42)
 - [Alif Maulana El Fattah Nataly](https://github.com/alif25r)
