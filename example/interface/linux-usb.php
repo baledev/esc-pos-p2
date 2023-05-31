@@ -1,8 +1,8 @@
 <?php
 /* Change to the correct path if you copy this example! */
 require __DIR__ . '/../../vendor/autoload.php';
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
 
 /**
  * On Linux, use the usblp module to make your printer available as a device

@@ -7,9 +7,9 @@
  * can be properly detected and printed alongside other encodings.
  */
 require __DIR__ . '/../../vendor/autoload.php';
-use Mike42\Escpos\CapabilityProfile;
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\CapabilityProfile;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
 
 $connector = new FilePrintConnector("/dev/usb/lp1");
 $profile = CapabilityProfile::load("default");

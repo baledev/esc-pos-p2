@@ -1,8 +1,8 @@
 <?php
 require __DIR__ . '/../vendor/autoload.php';
-use Mike42\Escpos\Escp2;
-use Mike42\Escpos\EscposImage;
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\Escp2;
+use Baledev\Escposp2\EscposImage;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
 
 /* Fill in your own connector here */
 $connector = new FilePrintConnector("php://stdout");

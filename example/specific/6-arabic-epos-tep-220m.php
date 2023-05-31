@@ -14,10 +14,10 @@
  *      handling the layout for this example.
  */
 require __DIR__ . '/../../vendor/autoload.php';
-use Mike42\Escpos\CapabilityProfile;
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
-use Mike42\Escpos\PrintBuffers\ImagePrintBuffer;
+use Baledev\Escposp2\CapabilityProfile;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\PrintBuffers\ImagePrintBuffer;
 
 /*
  * Drop Ar-php into the folder listed below:

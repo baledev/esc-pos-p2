@@ -6,10 +6,10 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
-use Mike42\Escpos\CapabilityProfile;
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\Devices\AuresCustomerDisplay;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\CapabilityProfile;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\Devices\AuresCustomerDisplay;
 
 /*
  * Device appears as a serial port.

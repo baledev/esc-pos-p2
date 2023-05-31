@@ -1,8 +1,8 @@
 <?php
 /* Change to the correct path if you copy this example! */
 require __DIR__ . '/../../vendor/autoload.php';
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\CupsPrintConnector;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\PrintConnectors\CupsPrintConnector;
 
 try {
     $connector = new CupsPrintConnector("EPSON_TM-T20");

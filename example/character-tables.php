@@ -15,9 +15,9 @@
  * arbitrary input from a database, without worrying about encoding it for the printer.
  */
 require __DIR__ . '/../vendor/autoload.php';
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
-use Mike42\Escpos\CapabilityProfile;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\CapabilityProfile;
 
 // Enter connector and capability profile (to match your printer)
 $connector = new FilePrintConnector("php://stdout");
@@ -25,7 +25,7 @@ $profile = CapabilityProfile::load("default");
 $verbose = false; // Skip tables which iconv wont convert to (ie, only print characters available with UTF-8 input)
 
 /* Print a series of receipts containing i18n example strings - Code below shouldn't need changing */
-$printer = new Mike42\Escpos\Printer($connector, $profile);
+$printer = new Baledev\Escposp2\Printer($connector, $profile);
 $codePages = $profile -> getCodePages();
 $first = true; // Print larger table for first code-page.
 foreach ($codePages as $table => $page) {

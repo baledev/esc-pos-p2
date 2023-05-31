@@ -12,10 +12,10 @@
  * object into some sort of cache if you will re-use the output.
  */
 require __DIR__ . '/../../vendor/autoload.php';
-use Mike42\Escpos\CapabilityProfile;
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\EscposImage;
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\CapabilityProfile;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\EscposImage;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
 
 // Paths to images to combine
 $img1_path = dirname(__FILE__) . "/../resources/tux.png";

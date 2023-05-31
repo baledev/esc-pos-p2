@@ -1,11 +1,11 @@
 <?php
 /* Change to the correct path if you copy this example! */
 require __DIR__ . '/../vendor/autoload.php';
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
-use Mike42\Escpos\PrintBuffers\EscposPrintBuffer;
-use Mike42\Escpos\PrintBuffers\ImagePrintBuffer;
-use Mike42\Escpos\CapabilityProfile;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\PrintBuffers\EscposPrintBuffer;
+use Baledev\Escposp2\PrintBuffers\ImagePrintBuffer;
+use Baledev\Escposp2\CapabilityProfile;
 
 /**
  * This example builds on character-encodings.php, also providing an image-based rendering.

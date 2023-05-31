@@ -1,9 +1,9 @@
 <?php
 /* Example of Greek text on the P-822D */
 require __DIR__ . '/../../vendor/autoload.php';
-use Mike42\Escpos\CapabilityProfile;
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\CapabilityProfile;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
 
 // Setup the printer
 $connector = new FilePrintConnector("php://stdout");

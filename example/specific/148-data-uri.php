@@ -4,9 +4,9 @@
  * without using a file.
  */
 require __DIR__ . '/../../vendor/autoload.php';
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
-use Mike42\Escpos\ImagickEscposImage;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\ImagickEscposImage;
 
 // Data URI for a PNG image (red dot from https://en.wikipedia.org/wiki/Data_URI_scheme )
 $uri = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA

@@ -2,9 +2,9 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\Experimental\Unifont\UnifontPrintBuffer;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\Experimental\Unifont\UnifontPrintBuffer;
 
 $connector = new FilePrintConnector("php://stdout");
 $printer = new Printer($connector);

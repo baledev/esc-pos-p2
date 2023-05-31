@@ -1,10 +1,10 @@
 <?php
 require __DIR__ . '/../autoload.php';
 
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\EscposImage;
-use Mike42\Escpos\PrintConnectors\RawbtPrintConnector;
-use Mike42\Escpos\CapabilityProfile;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\EscposImage;
+use Baledev\Escposp2\PrintConnectors\RawbtPrintConnector;
+use Baledev\Escposp2\CapabilityProfile;
 
 try {
     $profile = CapabilityProfile::load("POS58");

@@ -3,9 +3,9 @@
  * Example of dithering used in EscposImage by default, if you have Imagick loaded.
  */
 require __DIR__ . '/../../vendor/autoload.php';
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\EscposImage;
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\EscposImage;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
 
 $connector = new FilePrintConnector("/dev/usb/lp0");
 $printer = new Printer($connector);

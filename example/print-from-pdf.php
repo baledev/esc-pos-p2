@@ -1,8 +1,8 @@
 <?php
 require __DIR__ . '/../vendor/autoload.php';
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\ImagickEscposImage;
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\ImagickEscposImage;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
 
 /*
  * This is three examples in one:

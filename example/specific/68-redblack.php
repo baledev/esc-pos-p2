@@ -3,8 +3,8 @@
  * Example of two-color printing, tested on an epson TM-U220 with two-color ribbon installed.
  */
 require __DIR__ . '/../../vendor/autoload.php';
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
 
 $connector = new FilePrintConnector("/dev/usb/lp0");
 $printer = new Printer($connector);

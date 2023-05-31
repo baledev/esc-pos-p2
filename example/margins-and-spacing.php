@@ -1,8 +1,8 @@
 <?php
 /* Left margin & page width demo. */
 require __DIR__ . '/../vendor/autoload.php';
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\FilePrintConnector;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\PrintConnectors\FilePrintConnector;
 
 $connector = new FilePrintConnector("php://stdout"); // Add connector for your printer here.
 $printer = new Printer($connector);

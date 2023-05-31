@@ -1,8 +1,8 @@
 <?php
 /* Change to the correct path if you copy this example! */
 require __DIR__ . '/../../vendor/autoload.php';
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\WindowsPrintConnector;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\PrintConnectors\WindowsPrintConnector;
 
 /**
  * Assuming your printer is available at LPT1,

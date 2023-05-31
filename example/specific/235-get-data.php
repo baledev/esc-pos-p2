@@ -5,9 +5,9 @@
  * This is intended for the "Star TSP650IIcloudPRNT" printer.
  */
 require __DIR__ . '/../../vendor/autoload.php';
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\DummyPrintConnector;
-use Mike42\Escpos\CapabilityProfile;
+use Baledev\Escposp2\Printer;
+use Baledev\Escposp2\PrintConnectors\DummyPrintConnector;
+use Baledev\Escposp2\CapabilityProfile;
 
 // Make sure you load a Star print connector or you may get gibberish.
 $connector = new DummyPrintConnector();

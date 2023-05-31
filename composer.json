@@ -1,8 +1,8 @@
 {
-	"name" : "mike42/escpos-php",
+	"name" : "baledev/esc-pos-p2",
 	"type" : "library",
 	"description" : "PHP receipt printer library for use with ESC/POS-compatible thermal and impact printers",
-	"homepage" : "https://github.com/mike42/escpos-php",
+	"homepage" : "https://github.com/baledev/esc-pos-p2",
 	"keywords" : [
 		"barcode",
 		"epson",
@@ -12,8 +12,8 @@
 	],
 	"license" : "MIT",
 	"authors" : [{
-			"name" : "Michael Billington",
-			"email" : "michael.billington@gmail.com"
+			"name" : "Hermansyah",
+			"email" : "eiximey@gmail.com"
 		}
 	],
 	"config": {
@@ -38,7 +38,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Mike42\\" : "src/Mike42"
+			"Baledev\\" : "src/Baledev"
 		}
 	}
 }
