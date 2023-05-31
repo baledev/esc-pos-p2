@@ -1,8 +1,8 @@
 # ESC/POS Print Driver for PHP
-[![Build Status](https://travis-ci.org/mike42/escpos-php.svg?branch=master)](https://travis-ci.org/mike42/escpos-php) [![Latest Stable Version](https://poser.pugx.org/mike42/escpos-php/v/stable)](https://packagist.org/packages/mike42/escpos-php)
-[![Total Downloads](https://poser.pugx.org/mike42/escpos-php/downloads)](https://packagist.org/packages/mike42/escpos-php)
-[![License](https://poser.pugx.org/mike42/escpos-php/license)](https://packagist.org/packages/mike42/escpos-php)
-[![Coverage Status](https://coveralls.io/repos/github/mike42/escpos-php/badge.svg?branch=development)](https://coveralls.io/github/mike42/escpos-php?branch=development)
+[![Build Status](https://travis-ci.org/baledev/esc-pos-p2.svg?branch=master)](https://travis-ci.org/baledev/esc-pos-p2) [![Latest Stable Version](https://poser.pugx.org/baledev/esc-pos-p2/v/stable)](https://packagist.org/packages/baledev/esc-pos-p2)
+[![Total Downloads](https://poser.pugx.org/baledev/esc-pos-p2/downloads)](https://packagist.org/packages/baledev/esc-pos-p2)
+[![License](https://poser.pugx.org/baledev/esc-pos-p2/license)](https://packagist.org/packages/baledev/esc-pos-p2)
+[![Coverage Status](https://coveralls.io/repos/github/baledev/esc-pos-p2/badge.svg?branch=development)](https://coveralls.io/github/baledev/esc-pos-p2?branch=development)
 
 This project implements a subset of Epson's ESC/POS protocol for thermal receipt printers. It allows you to generate and print receipts with basic formatting, cutting, and barcodes on a compatible printer.
 
@@ -22,15 +22,15 @@ This driver is known to work with the following OS/interface combinations:
 </tr>
 <tr>
 <th>Ethernet</th>
-<td><a href="https://github.com/mike42/escpos-php/tree/master/example/interface/ethernet.php">Yes</a></td>
-<td><a href="https://github.com/mike42/escpos-php/tree/master/example/interface/ethernet.php">Yes</a></td>
-<td><a href="https://github.com/mike42/escpos-php/tree/master/example/interface/ethernet.php">Yes</a></td>
+<td><a href="https://github.com/baledev/esc-pos-p2/tree/master/example/interface/ethernet.php">Yes</a></td>
+<td><a href="https://github.com/baledev/esc-pos-p2/tree/master/example/interface/ethernet.php">Yes</a></td>
+<td><a href="https://github.com/baledev/esc-pos-p2/tree/master/example/interface/ethernet.php">Yes</a></td>
 </tr>
 <tr>
 <th>USB</th>
-<td><a href="https://github.com/mike42/escpos-php/tree/master/example/interface/linux-usb.php">Yes</a></td>
+<td><a href="https://github.com/baledev/esc-pos-p2/tree/master/example/interface/linux-usb.php">Yes</a></td>
 <td>Not tested</td>
-<td><a href="https://github.com/mike42/escpos-php/tree/master/example/interface/windows-usb.php">Yes</a></td>
+<td><a href="https://github.com/baledev/esc-pos-p2/tree/master/example/interface/windows-usb.php">Yes</a></td>
 </tr>
 <tr>
 <th>USB-serial</th>
@@ -46,20 +46,20 @@ This driver is known to work with the following OS/interface combinations:
 </tr>
 <tr>
 <th>Parallel</th>
-<td><a href="https://github.com/mike42/escpos-php/tree/master/example/interface/windows-lpt.php">Yes</a></td>
+<td><a href="https://github.com/baledev/esc-pos-p2/tree/master/example/interface/windows-lpt.php">Yes</a></td>
 <td>Not tested</td>
 <td>Yes</td>
 </tr>
 <tr>
 <th>SMB shared</th>
-<td><a href="https://github.com/mike42/escpos-php/tree/master/example/interface/smb.php">Yes</a></td>
+<td><a href="https://github.com/baledev/esc-pos-p2/tree/master/example/interface/smb.php">Yes</a></td>
 <td>No</td>
-<td><a href="https://github.com/mike42/escpos-php/tree/master/example/interface/smb.php">Yes</a></td>
+<td><a href="https://github.com/baledev/esc-pos-p2/tree/master/example/interface/smb.php">Yes</a></td>
 </tr>
 <tr>
 <th>CUPS hosted</th>
-<td><a href="https://github.com/mike42/escpos-php/tree/master/example/interface/cups.php">Yes</a></td>
-<td><a href="https://github.com/mike42/escpos-php/tree/master/example/interface/cups.php">Yes</a></td>
+<td><a href="https://github.com/baledev/esc-pos-p2/tree/master/example/interface/cups.php">Yes</a></td>
+<td><a href="https://github.com/baledev/esc-pos-p2/tree/master/example/interface/cups.php">Yes</a></td>
 <td>No</td>
 </tr>
 </table>
@@ -158,7 +158,7 @@ Many thermal receipt printers support ESC/POS to some degree. This driver has be
 - Zjiang ZJ-8220 (Also marketed as Excelvan ZJ-8220)
 - Zjiang ZJ-8250
 
-If you use any other printer with this code, please [let us know](https://github.com/mike42/escpos-php/issues/new) so that it can be added to the list.
+If you use any other printer with this code, please [let us know](https://github.com/baledev/esc-pos-p2/issues/new) so that it can be added to the list.
 
 ## Basic usage
 
@@ -166,10 +166,10 @@ If you use any other printer with this code, please [let us know](https://github
 
 #### Composer
 
-This library is designed for use with the `composer` PHP dependency manager. Simply add the `mike42/escpos-php` package to get started:
+This library is designed for use with the `composer` PHP dependency manager. Simply add the `baledev/esc-pos-p2` package to get started:
 
 ```bash
-composer require mike42/escpos-php
+composer require baledev/esc-pos-p2
 ```
 
 If you haven't used `composer` before, you can read about it at [getcomposer.org](https://getcomposer.org/).
@@ -186,7 +186,7 @@ This project has few hard dependencies:
 It is also suggested that you install either `imagick` or `gd`, as these can be used to speed up image processing.
 
 A number of optional extensions can be added to enable more specific features. These
-are described in the "suggest" section of [composer.json](https://github.com/mike42/escpos-php/tree/master/composer.json).
+are described in the "suggest" section of [composer.json](https://github.com/baledev/esc-pos-p2/tree/master/composer.json).
 
 ### The 'Hello World' receipt
 
@@ -239,7 +239,7 @@ If you have troubles at this point, then you should consult your OS and printer 
 
 ### Using a PrintConnector
 
-To print receipts from PHP, use the most applicable [PrintConnector](https://github.com/mike42/escpos-php/tree/master/src/Mike42/Escpos/PrintConnectors) for your setup. The connector simply provides the plumbing to get data to the printer.
+To print receipts from PHP, use the most applicable [PrintConnector](https://github.com/baledev/esc-pos-p2/tree/master/src/Mike42/Escpos/PrintConnectors) for your setup. The connector simply provides the plumbing to get data to the printer.
 
 For example, a `NetworkPrintConnector` accepts an IP address and port:
 
@@ -296,11 +296,11 @@ For a list of available profiles, or to have support for your printer improved, 
 
 On Linux, your printer device file will be somewhere like `/dev/lp0` (parallel), `/dev/usb/lp1` (USB), `/dev/ttyUSB0` (USB-Serial), `/dev/ttyS0` (serial).
 
-On Windows, the device files will be along the lines of `LPT1` (parallel) or `COM1` (serial). Use the `WindowsPrintConnector` to tap into system printing on Windows (eg. [Windows USB](https://github.com/mike42/escpos-php/tree/master/example/interface/windows-usb.php), [SMB](https://github.com/mike42/escpos-php/tree/master/example/interface/smb.php) or [Windows LPT](https://github.com/mike42/escpos-php/tree/master/example/interface/windows-lpt.php)) - this submits print jobs via a queue rather than communicating directly with the printer.
+On Windows, the device files will be along the lines of `LPT1` (parallel) or `COM1` (serial). Use the `WindowsPrintConnector` to tap into system printing on Windows (eg. [Windows USB](https://github.com/baledev/esc-pos-p2/tree/master/example/interface/windows-usb.php), [SMB](https://github.com/baledev/esc-pos-p2/tree/master/example/interface/smb.php) or [Windows LPT](https://github.com/baledev/esc-pos-p2/tree/master/example/interface/windows-lpt.php)) - this submits print jobs via a queue rather than communicating directly with the printer.
 
 A complete real-world receipt can be found in the code of [Auth](https://github.com/mike42/Auth) in [ReceiptPrinter.php](https://github.com/mike42/Auth/blob/master/lib/misc/ReceiptPrinter.php). It includes justification, boldness, and a barcode.
 
-Other examples are located in the [example/](https://github.com/mike42/escpos-php/blob/master/example/) directory.
+Other examples are located in the [example/](https://github.com/baledev/esc-pos-p2/blob/master/example/) directory.
 
 ## Available methods
 
@@ -311,7 +311,7 @@ Parameters:
 - `PrintConnector $connector`: The PrintConnector to send data to.
 - `CapabilityProfile $profile` Supported features of this printer. If not set, the "default" CapabilityProfile will be used, which is suitable for Epson printers.
 
-See [example/interface/](https://github.com/mike42/escpos-php/tree/master/example/interface/) for ways to open connections for different platforms and interfaces.
+See [example/interface/](https://github.com/baledev/esc-pos-p2/tree/master/example/interface/) for ways to open connections for different platforms and interfaces.
 
 ### barcode($content, $type)
 Print a barcode.
@@ -383,7 +383,7 @@ $img = EscposImage::load("logo.png");
 $printer -> graphics($img);
 ```
 
-See the [example/](https://github.com/mike42/escpos-php/blob/master/example/) folder for detailed examples.
+See the [example/](https://github.com/baledev/esc-pos-p2/blob/master/example/) folder for detailed examples.
 
 The function [bitImage()](#bitimageescposimage-image-size) takes the same parameters, and can be used if your printer doesn't support the newer graphics commands. As an additional fallback, the `bitImageColumnFormat()` function is also provided.
 
@@ -552,11 +552,11 @@ This code is MIT licensed, and you are encouraged to contribute any modification
 
 For development, it's suggested that you load `imagick`, `gd` and `Xdebug` PHP extensions.
 
-The tests are executed on [Travis CI](https://travis-ci.org/mike42/escpos-php) over PHP 7.3, 7.4 and 8.0. Older versions of PHP are not supported in the current release, nor is HHVM.
+The tests are executed on [Travis CI](https://travis-ci.org/baledev/esc-pos-p2) over PHP 7.3, 7.4 and 8.0. Older versions of PHP are not supported in the current release, nor is HHVM.
 
 Fetch a copy of this code and load dependencies with composer:
 
-    git clone https://github.com/mike42/escpos-php
+    git clone https://github.com/baledev/esc-pos-p2
     cd escpos-php/
     composer install
 
