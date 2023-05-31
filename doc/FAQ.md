@@ -10,11 +10,11 @@ The purpose of this driver it to generate binary ESC/POS code, which is understo
 
 If the printer understands ESC/POS, and you know how to get raw binary data to it, then yes. Otherwise, no.
 
-The [list of printers that are known to work](https://github.com/mike42/escpos-php/blob/development/README.md#printers) is crowd-sourced. We appreciate it when developers try out the driver, then [file information on the bug tracker](https://github.com/mike42/escpos-php/issues/new) with some information about which features worked on their model of printer.
+The [list of printers that are known to work](https://github.com/baledev/esc-pos-p2/blob/development/README.md#printers) is crowd-sourced. We appreciate it when developers try out the driver, then [file information on the bug tracker](https://github.com/baledev/esc-pos-p2/issues/new) with some information about which features worked on their model of printer.
 
 To see how well your printer works, first check that it supports ESC/POS, then begin by attempting to send the text "Hello World" to your printer on the command-line, from the computer that will run PHP.
 
-Once you solve this, [try to do the same from PHP](https://github.com/mike42/escpos-php/blob/development/README.md#basic-usage) using the default profile. Further details are in the [README](https://github.com/mike42/escpos-php/blob/development/README.md) file.
+Once you solve this, [try to do the same from PHP](https://github.com/baledev/esc-pos-p2/blob/development/README.md#basic-usage) using the default profile. Further details are in the [README](https://github.com/baledev/esc-pos-p2/blob/development/README.md) file.
 
 ## Can you add support for Printer X?
 
